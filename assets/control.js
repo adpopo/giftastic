@@ -79,14 +79,17 @@ function init(arr){
 init(pokemon);
 
 //event listenerss
+//click on a button
 $("#topics").on("click", ".topics", function(){
   createGif($(this).data("topic"));
 });
 
+//click on a gif
 $("#gifs").on("click", ".gif",function(){
   animate(this);
 });
 
+//create new button
 $("#newButton").on("click", function(){
   var newVal = $("#textbox").val();
   if(newVal != ""){
