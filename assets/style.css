@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+}
+
+#gifs{
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+}
+
+#userInput{
+	text-align: left;
+}
+
+#topics{
+	text-align: left;
+	margin-left: 20px;
+}
+
+.btn{
+	margin: 5px;
+}
